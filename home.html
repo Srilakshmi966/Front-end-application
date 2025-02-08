@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>TechnoVibe Solutions - Home</title>
+</head>
+<body>
+    <header class=""fade-in>
+        <div class="logo">TechnoVibe Solutions Pvt. Ltd.</div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+        <section id="home">
+            <h1>Building the Future with TechnoVibe Solutions</h1>
+            <p>We provide high-quality IT services to help businesses grow.</p>
+            <button id="contact-btn">Get In Touch</button>
+        </section>
+    
+    <button id="chat-button">Chat with Us</button>
+
+    <!-- Chatbot Window -->
+    <div id="chat-container" class="hidden">
+        <div class="chat-header">
+            <span>Chatbot</span>
+            <button id="close-chat">&times;</button>
+        </div>
+        <div id="chat-box">
+            <p class="bot-message"><strong>Bot:</strong> Hello! How can I assist you today?</p>
+        </div>
+        <input type="text" id="user-input" placeholder="Type a message...">
+        <button id="send-btn">Send</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 TechnoVibe Solutions Pvt. Ltd. All Rights Reserved.<br>
+        Privacy Cookie | Consent Tool | Terms of Use</p>
+    </footer>
+
+    <!-- Include common JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
