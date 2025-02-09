@@ -3,8 +3,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #1c1c1c; /* Dark background */
-    color: white; /* Text color */
+    background-color: #1c1c1c; 
+    color: white; 
     text-align: center;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
 }
@@ -13,7 +13,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #27171e; /* Header background color */
+    background-color: #27171e; 
     color: white;
     padding: 10px 20px;
     animation: slide-down 1s  ease-out;
@@ -37,7 +37,7 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
-    font-size: 18px; /* Larger font for navigation */
+    font-size: 18px; 
 } 
 section{
     margin-bottom: 40px;
@@ -145,8 +145,8 @@ section{
     max-width: 1200px;
     margin: 40px auto;
     padding: 40px;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)); /* White background */
-    border-left: 5px solid #007bff; /* Blue left border */
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)); 
+    border-left: 5px solid #007bff; 
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -155,7 +155,7 @@ section{
 
 .mission h3 {
     font-size: 2rem;
-    color: white; /* Blue color for title */
+    color: white; 
     margin-bottom: 15px;
     font-weight: bold;
 }
@@ -174,7 +174,7 @@ section{
     max-width: 1200px;
     margin: 40px auto;
     padding: 40px;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)); /* White background */ /* Light blue-gray background */
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)); 
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -183,7 +183,7 @@ section{
 
 .values h3 {
     font-size: 2rem;
-    color: white; /* Dark blue title */
+    color: white;
     margin-bottom: 20px;
     font-weight: bold;
 }
@@ -202,19 +202,19 @@ section{
     background: lightgray;
     margin: 10px 0;
     padding: 15px;
-    border-left: 5px solid #0056b3; /* Dark blue left border */
+    border-left: 5px solid #0056b3; 
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
 }
 
 .values li:hover {
-    transform: translateX(10px); /* Slight shift on hover */
+    transform: translateX(10px); 
 }
 
 /* Team Section Styling */
 .team {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)); /* White background */
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)); 
     max-width: 1200px;
     margin: 50px auto;
     padding: 40px;
@@ -226,7 +226,7 @@ section{
 
 .team h3 {
     font-size: 2rem;
-    color: white; /* Dark blue title */
+    color: white; 
     margin-bottom: 20px;
     font-weight: bold;
 }
@@ -252,7 +252,7 @@ section{
 }
 
 .team-member:hover {
-    transform: translateY(-10px); /* Lift effect on hover */
+    transform: translateY(-10px); 
 }
 
 .team-member img {
@@ -472,11 +472,11 @@ main {
 #home {
     text-align: center;
     padding: 80px 20px;
-    background: linear-gradient(to bottom, hsl(0, 0%, 0%), #8b3c73); /* Gradient background */
+    background: linear-gradient(to bottom, hsl(0, 0%, 0%), #8b3c73); 
 }
 
 h1 {
-    font-size: 36px; /* Heading size */
+    font-size: 36px; 
     margin-bottom: 20px;
 }
 
@@ -487,7 +487,7 @@ p {
 
 /* Button */
 button {
-    background-color: #29a3e0; /* Button color */
+    background-color: #29a3e0; 
     color: white;
     border: none;
     padding: 10px 20px;
@@ -498,7 +498,7 @@ button {
 }
 
 button:hover {
-    background-color: #007acc; /* Darker button on hover */
+    background-color: #007acc;
     transform: scale(1.1);
 }
 
@@ -644,8 +644,8 @@ button:hover {
 section {
     margin-bottom: 40px;
     padding: 20px;
-    background: linear-gradient(to bottom, hsl(0, 0%, 0%), #8b3c73); /* Section background */
-    border-radius: 8px; /* Rounded corners */
+    background: linear-gradient(to bottom, hsl(0, 0%, 0%), #8b3c73);
+    border-radius: 8px; 
 }
 
 footer {
@@ -677,7 +677,7 @@ footer {
     border: 1px solid #ccc;
     padding: 5px;
     margin-bottom: 10px;
-    background: #f9f9f9; /* Chat background */
+    background: #f9f9f9;
     border-radius:5px;
     color:#000;
 
@@ -688,13 +688,13 @@ footer {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    color: #000; /* Dark input text */
-    background-color: #fff; /* Light background for input */
+    color: #000;
+    background-color: #fff; 
 }
 
 #send-btn {
     background-color: #29a3e0;
-    color: white; /* Button text color */
+    color: white; 
 }
 #send-btn {
     width: 25%;
@@ -711,7 +711,7 @@ footer {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: column;
-    z-index: 1000; /* Keep it above other elements */
+    z-index: 1000; 
 }
 
 #chat-header {
@@ -766,19 +766,19 @@ footer {
 
 
 footer {
-    background-color: #e6b0aa;  /* Dark background for the footer */
-    color: white;  /* White text color */
-    text-align: center;  /* Center-align the text */
-    padding: 10px;  /* Add some space around the content */
-    font-size: 10px;  /* Set a readable font size */
-    font-family: Arial, sans-serif;  /* Choose a clean font */
+    background-color: #e6b0aa;  
+    color: white;  
+    text-align: center;  
+    padding: 10px; 
+    font-size: 10px;  
+    font-family: Arial, sans-serif;  
     bottom: 0;
     width: 100%;
 }
 
 
 footer p {
-    margin: 5px 0;  /* Add space between paragraphs */
+    margin: 5px 0; 
 }
 
 /* Responsive Chat Styles */
