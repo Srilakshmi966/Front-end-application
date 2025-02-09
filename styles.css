@@ -44,7 +44,7 @@ section{
     border-radius: 8px;
 }
 
-/* Home Section Styling */
+
 #home {
     display: flex;
     flex-direction: column;
@@ -80,7 +80,7 @@ section{
 }
 
 
-/* About Section Styling */
+
 .about-section {
     max-width: 1200px;
     margin: 40px auto;
@@ -113,7 +113,7 @@ section{
     max-width: 900px;
     margin: 0 auto;
 }
- /* Vision Section Styling */
+
 .vision {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
     max-width: 1200px;
@@ -140,7 +140,7 @@ section{
     margin: 0 auto;
 }
 
-/* Mission Section Styling */
+
 .mission {
     max-width: 1200px;
     margin: 40px auto;
@@ -169,7 +169,7 @@ section{
 }
 
 
-/* Values Section Styling */
+
 .values {
     max-width: 1200px;
     margin: 40px auto;
@@ -212,7 +212,6 @@ section{
     transform: translateX(10px); 
 }
 
-/* Team Section Styling */
 .team {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)); 
     max-width: 1200px;
@@ -239,7 +238,7 @@ section{
     margin: 0 auto;
 }
 
-/* Team Member Styling */
+
 .team-member {
     display: inline-block;
     margin: 20px;
@@ -275,7 +274,7 @@ section{
     color: #666;
 }
 
-/* Styling for Our contact section */
+
 .contact {
     max-width: 600px;
     margin: 0 auto;
@@ -373,7 +372,7 @@ ul li {
     margin: 10px 0;
 }
 
-/* Chat Button */
+
 #chat-button {
     position: right;
     bottom: 20px;
@@ -386,7 +385,7 @@ ul li {
     cursor: pointer;
 }
 
-/* Chatbot Container */
+
 #chat-container {
     position: fixed;
     bottom: 70px;
@@ -399,7 +398,7 @@ ul li {
     flex-direction: column;
 }
 
-/* Chat Header */
+
 .chat-header {
     background: #4CAF50;
     color: white;
@@ -417,7 +416,7 @@ ul li {
     cursor: pointer;
 }
 
-/* Chat Box */
+
 #chat-box {
     padding: 10px;
     height: 100px;
@@ -425,7 +424,7 @@ ul li {
     text-align: left;
 }
 
-/* Chat Messages */
+
 .user-message {
     background: #af7ac5 ;
     padding: 5px;
@@ -440,7 +439,7 @@ ul li {
     margin: 5px 0;
 }
 
-/* Input Box */
+
 #user-input {
     width: 70%;
     padding: 8px;
@@ -449,7 +448,7 @@ ul li {
     margin: 5px;
 }
 
-/* Send Button */
+
 #send-btn {
     padding: 8px;
     background: #4CAF50;
@@ -459,7 +458,7 @@ ul li {
     border-radius: 3px;
 }
 
-/* Hide Element */
+
 .hidden {
     display: none;
 }
@@ -468,7 +467,7 @@ main {
     padding: 20px;
 }
 
-/* Home Section */
+
 #home {
     text-align: center;
     padding: 80px 20px;
@@ -485,7 +484,7 @@ p {
     margin-bottom: 30px;
 }
 
-/* Button */
+
 button {
     background-color: #29a3e0; 
     color: white;
@@ -503,7 +502,7 @@ button:hover {
 }
 
 
-/* Close Button */
+
 .close {
     position: absolute;
     top: 10px;
@@ -512,7 +511,7 @@ button:hover {
     cursor: pointer;
 }
 
-/*service */
+
 #services {
     background: linear-gradient(to bottom, hsl(0, 0%, 0%), #8b3c73);
     padding: 40px 20px;
@@ -564,7 +563,7 @@ button:hover {
 }
 
 
-/*portfolio */
+
 #portfolio h1 {
     font-size: 2.5rem;
     margin-bottom: 30px;
@@ -610,7 +609,7 @@ button:hover {
 }
 
 
-/* Keyframe Animations */
+
 @keyframes slide-down {
     from {
         transform: translateY(-100%);
@@ -640,7 +639,7 @@ button:hover {
     }
 }
 
-/* Other Sections */
+
 section {
     margin-bottom: 40px;
     padding: 20px;
@@ -655,7 +654,7 @@ footer {
     padding: 10px 0;
 }
 
-/* Chat Window Styles */
+
 #chat-window {
     position: fixed;
     bottom: 10px;
@@ -781,7 +780,7 @@ footer p {
     margin: 5px 0; 
 }
 
-/* Responsive Chat Styles */
+
 @media (max-width: 400px) {
     #chat-window {
         width: 100%;
@@ -790,7 +789,7 @@ footer p {
     }
 }
 
-/* Responsive Styles */
+
 @media (max-width: 600px) {
     header {
         flex-direction: column;
