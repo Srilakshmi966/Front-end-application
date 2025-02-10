@@ -578,7 +578,7 @@ button:hover {
 }
 
 .project {
-    background-color: black;
+    background-color: white;
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
