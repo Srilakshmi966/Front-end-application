@@ -562,36 +562,39 @@ button:hover {
     padding: 0 20px 20px;
 }
 
- /* Portfolio Section */
+
+
+/* Portfolio Section */
 #portfolio {
-    padding: 40px 20px;
+    padding: 60px 20px;
     background-color: #f4f4f4;
     text-align: center;
 }
 
 #portfolio h1 {
     font-size: 2.5rem;
-    color: #FFFFFF;
+    color: white;
     margin-bottom: 30px;
 }
 
 /* Portfolio Container */
 .portfolio-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr));
-    gap: 50px;
-    max-width: 1200px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1500px;
     margin: 0 auto;
 }
 
-/* Individual Project */
+/* Card Design */
 .project {
     background: #fff;
-     border: 2px solid #ddd;
     border-radius: 8px;
+    border: 2px solid #ddd;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+   
 }
 
 .project:hover {
@@ -599,25 +602,87 @@ button:hover {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
+/* Card Image */
 .project img {
     width: 100%;
     height: 200px;
     object-fit: cover;
 }
 
+/* Card Content */
+.project-content {
+    padding: 20px;
+    text-align: left;
+}
+
 .project h2 {
     font-size: 1.5rem;
     color: #333;
-    margin: 15px 0;
+    margin-bottom: 10px 0;
 }
 
 .project p {
     font-size: 1rem;
-    color: #333;
+    color: #666;
     line-height: 1.6;
 }
 
+/* Button */
+.project .btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
 
+.project .btn:hover {
+    background: #0056b3;
+}
+
+.project-detail {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.project-detail .container {
+    max-width: 800px;
+    margin: auto;
+    text-align: left;
+}
+
+.project-detail h1 {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.project-detail img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.project-detail p {
+    font-size: 1.2rem;
+    color: white;
+    line-height: 1.6;
+}
+
+.project-detail ul {
+    list-style-type: disc;
+    margin: 20px 0;
+    padding-left: 20px;
+    color: white;
+}
+
+.project-detail .btn {
+    margin-top: 20px;
+}
 @keyframes slide-down {
     from {
         transform: translateY(-100%);
