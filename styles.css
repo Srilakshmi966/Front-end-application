@@ -564,22 +564,22 @@ button:hover {
 
  /* Portfolio Section */
 #portfolio {
-    padding: 60px 20px;
+    padding: 40px 20px;
     background-color: #f4f4f4;
     text-align: center;
 }
 
 #portfolio h1 {
     font-size: 2.5rem;
-    color: #333;
+    color: white;
     margin-bottom: 30px;
 }
 
 /* Portfolio Container */
 .portfolio-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(4, 1fr));
+    gap: 50px;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -587,7 +587,7 @@ button:hover {
 /* Individual Project */
 .project {
     background: #fff;
-    border-radius: 8px;
+     border: 2px solid #ddd;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -600,7 +600,6 @@ button:hover {
 
 .project img {
     width: 100%;
-    border-radius: 8px;
     height: 200px;
     object-fit: cover;
 }
