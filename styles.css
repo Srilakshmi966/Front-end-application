@@ -562,52 +562,60 @@ button:hover {
     padding: 0 20px 20px;
 }
 
-
+ /* Portfolio Section */
+#portfolio {
+    padding: 60px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
 
 #portfolio h1 {
     font-size: 2.5rem;
+    color: #333;
     margin-bottom: 30px;
 }
 
+/* Portfolio Container */
 .portfolio-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
     max-width: 1200px;
     margin: 0 auto;
 }
 
+/* Individual Project */
 .project {
-    background-color: #333;
-    border: 1px solid #ddd;
+    background: #fff;
     border-radius: 8px;
-    overflow: hidden;
+    padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .project:hover {
-    transform: translateY(-10px);
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
 .project img {
     width: 100%;
-    height: 100px;
+    border-radius: 8px;
+    height: 200px;
     object-fit: cover;
 }
 
 .project h2 {
     font-size: 1.5rem;
-    color: #333333 ;;
-    margin: 10px 0;
+    color: #222;
+    margin: 15px 0;
 }
 
 .project p {
     font-size: 1rem;
-    color: black;
-    padding: 0 20px 20px;
+    color: #666;
+    line-height: 1.6;
 }
-
 
 
 @keyframes slide-down {
